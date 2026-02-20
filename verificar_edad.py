@@ -1,9 +1,7 @@
-edad_madre = 35
-tu_edad = 17
+edad = 17
+mayor_de_edad = 18
 
-if tu_edad > edad_madre:
-    print(f"Tienes {tu_edad} años. Eres mayor que tu madre ({edad_madre} años).")
-elif tu_edad == edad_madre:
-    print(f"Tienes {tu_edad} años. Tienes la misma edad que tu madre ({edad_madre} años).")
+if edad >= mayor_de_edad:
+    print(f"Tienes {edad} años. Eres mayor de edad.")
 else:
-    print(f"Tienes {tu_edad} años. Eres menor que tu madre ({edad_madre} años).")
+    print(f"Tienes {edad} años. No eres mayor de edad.")
